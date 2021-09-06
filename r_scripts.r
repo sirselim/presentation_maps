@@ -1,8 +1,10 @@
 install.packages('leaflet')
-install.packages('mapview')
+# install.packages('mapview')
+install.packages("htmlwidgets")
 
 library(leaflet)
-library(mapview)
+# library(mapview)
+library(htmlwidgets)
 
 # leaflet(options = leafletOptions(minZoom = 3, maxZoom = 18))
 
