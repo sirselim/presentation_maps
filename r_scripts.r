@@ -1,6 +1,6 @@
-install.packages('leaflet')
+# install.packages('leaflet')
 # install.packages('mapview')
-install.packages("htmlwidgets")
+# install.packages("htmlwidgets")
 
 library(leaflet)
 # library(mapview)
@@ -33,9 +33,12 @@ addMarkers(lng=23.721, lat=37.999, label="Greece", labelOptions = labelOptions(n
 # addMarkers() %>%
 # addMouseCoordinates(style = "basic")
 
-clearBounds(m)
 
-setMaxBounds(m, -152.274, 65.276, 174.841, -41.134)
+saveWidget(m, file = "jetson_nanopore_world.html")
+
+# clearBounds(m)
+
+# setMaxBounds(m, -152.274, 65.276, 174.841, -41.134)
 
 # Nasa: NASAGIBS.ViirsEarthAtNight2012
 # Google map: Esri.WorldImagery
@@ -45,19 +48,19 @@ setMaxBounds(m, -152.274, 65.276, 174.841, -41.134)
 
 
 
-Greece  37.99913913410868, 23.72144762736455
+# Greece  37.99913913410868, 23.72144762736455
 
-Ecuador -0.40842022013770235, -76.96812596580249
+# Ecuador -0.40842022013770235, -76.96812596580249
 
-Kenya -1.2778085376348882, 36.818212237993414
+# Kenya -1.2778085376348882, 36.818212237993414
 
 
-NZ  -41.13484106555699, 174.8412684252871
+# NZ  -41.13484106555699, 174.8412684252871
 
-USA  39.83549133906906, -103.33569390761696
+# USA  39.83549133906906, -103.33569390761696
 
-Italy 43.02892270112339, 12.553075914725712
+# Italy 43.02892270112339, 12.553075914725712
 
-Basel  47.561, 7.585 (lat lng)
+# Basel  47.561, 7.585 (lat lng)
 
-Germany 51.103780779435006, 10.210610838150929
+# Germany 51.103780779435006, 10.210610838150929
